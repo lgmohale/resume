@@ -94,6 +94,7 @@ a {
 .download .button {
    margin-top: 2px;
    background: #444;
+   color: white;
 }
 .download .button:hover {
    background: #fff;
@@ -112,4 +113,9 @@ a {
   bottom: 10%;
   margin-left: 30%;
   padding: 0 40px;
+}
+
+#bp{
+  text-decoration: none;
+  color: white !important;
 }
