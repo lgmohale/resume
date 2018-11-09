@@ -1,0 +1,115 @@
+body {
+  background: #ffffff;
+  color: #898989;
+  font-family: 'Poppins', helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2 {
+  color: #292929;
+  font-weight: 600;
+}
+
+h4 {
+  color: #292929;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+a {
+  color: #292929;
+  text-decoration: none !important;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+
+#header {
+  background: url("../images/home.jpg") repeat scroll center center / cover;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+
+#header .header-content {
+  height: 100vh;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color:black;
+}
+
+.header-content p {
+  font-size: 13px;
+  letter-spacing: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color:black;
+  font-weight: 500;
+}
+
+.header-content .list-social li {
+  float: left;
+  margin-right: 20px;
+}
+
+.header-content .list-social li i {
+  color: #fff;
+  font-size: 15px;
+}
+
+
+.download .button {
+   margin-top: 2px;
+   background: #444;
+}
+.download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+.download .button i {
+   margin-right: 10px;
+   font-size: 20px;
+}
+.button{
+  padding: 20px;
+  background-color: pink;
+}
+#don{
+  position: absolute;
+  bottom: 10%;
+  margin-left: 30%;
+  padding: 0 40px;
+}
